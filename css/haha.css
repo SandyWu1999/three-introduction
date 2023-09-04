@@ -1,0 +1,77 @@
+.pic img {
+  border: solid 1px #000; /*設定圖片框線*/
+  border-radius: 50%/70% 70% 0 0; /*設定圖片為半圓形*/
+  border-top-left-radius: 70%; /*和下列搭配設定框線成半圓形*/
+  border-top-right-radius: 70%;
+}
+.text a {
+  text-decoration: none;
+  color: #2e231b;
+}
+
+.text a:hover {
+  color: #ff7000;
+}
+
+.hd {
+  background-color: #efe2d9;
+}
+
+.banner {
+  background-image: url(../images/ggg.png);
+}
+
+.banner h1 {
+  font-size: 100px;
+  color: #fff;
+}
+
+.kv {
+  background-color: #efe2d9;
+}
+.hh {
+  margin-top: -50px;
+}
+.ttt h2 {
+  color: #2e231b;
+  font-size: 30px;
+}
+
+.pic03 img {
+  border: solid 1px #000;
+  border-radius: 0 0 70% 70%;
+}
+
+.hh {
+  background-color: #e6cdb9;
+}
+
+.outer ul {
+  list-style: none;
+}
+
+.outer a {
+  color: #2e231b;
+  text-decoration: none;
+}
+.outer a:hover {
+  color: #ff7000;
+}
+
+.bb {
+  background-color: #efe2d9;
+}
+.outer {
+  background-color: aliceblue;
+  border-radius: 100% 100% 0 0;
+  bottom: 0;
+}
+.footer {
+  background-color: #e7ccb7;
+  margin-bottom: -20px;
+}
+@media screen and (max-width: 768px) {
+  .banner h1 {
+    font-size: 40px;
+  }
+}
