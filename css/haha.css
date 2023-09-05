@@ -19,6 +19,9 @@
 
 .banner {
   background-image: url(../images/ggg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .banner h1 {
